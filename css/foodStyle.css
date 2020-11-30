@@ -1,0 +1,699 @@
+         /* #ffe152
+            #ebefc1e6
+    */
+    
+body{
+    margin:0;
+   
+}
+.bck{
+   
+    height:500px;
+    background-color: #ffe152;
+    position:relative;
+    
+}
+
+.bck .rg{
+    width:35%;
+    height:500px;
+    background-color: #ebefc1e6;
+    position:absolute;
+    right:0px;
+    top:0;
+}
+.bck .rg::before{
+    content:"";
+    display:inline-block;
+    width:0;
+    height:0;
+    border-top:500px solid #ffe152;
+    border-right:100px solid transparent;
+    z-index:0;
+}
+
+.navigat .logo{
+    width:30%;
+    position: absolute;
+    left:10px;
+    margin-top:10px;
+}
+
+.navigat .logo img{
+    max-width: 35px;
+    height:auto;
+    margin-bottom: 20px;
+    display:inline-block
+    
+}
+.navigat .logo span{
+    font-size:30px;
+    color:#222;
+    font-family: 'Carter One', cursive;
+    /*font-family: 'Dancing Script', cursive;*/
+    text-transform: uppercase;
+    
+        
+
+}
+
+.navigat .delv{
+    float:right;
+    position: absolute;
+    right:20px;
+    margin-top:10px;
+    color:#41444b;
+    z-index:999;
+}
+
+.navigat .delv p:first-of-type{
+    margin-bottom:0;
+    /*margin-left:10px;*/
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:10px;
+    line-height: 10px;
+}
+.navigat .delv p:last-of-type{
+    margin-top:0;
+    font-size: 20px;
+}
+
+.navigat .delv span{
+    display:inline-block;
+    position:absolute;
+    right:-25px;
+    top:5px;
+    font-size:30px;
+    transform:rotate(-20deg);
+    color:#41444b
+}
+
+.menu-bar {
+    
+    z-index:100;
+    float:right;
+    position: absolute;
+    right:20px;
+    margin-top:60px;
+    
+}
+.menu-bar ul{
+    list-style: none;
+}
+.menu-bar ul li{
+    float:left;
+    margin-left:30px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size:18px
+    
+}
+.menu-bar ul li:hover{
+    cursor: pointer;
+    color:white
+}
+
+.ad-img{
+    position:absolute;
+    top:120px;
+    right:300px;
+    max-width:300px;
+    z-index: 20;
+    box-shadow: 1px red;
+}
+
+.text-ad{
+    width:50%;
+    height:350px;
+    
+    margin:100px 40px;
+    padding:15px;
+    padding-top:50px;
+    
+}
+
+.text-ad p:first-of-type{
+    font-weight: bold;
+    font-size:40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-ad h2{
+    font-size:68px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.text-ad p:last-of-type{
+    font-weight: bold;
+    font-size:30px;
+}
+
+hr{
+   border-top:0.5px solid #41444b;
+    opacity:0.3
+}
+
+.text-ad button{
+    background-color: #ffe152;
+    width:170px;
+    padding:10px;
+    text-transform: uppercase;
+    color:#41444b;
+    border:1px solid #41444b;
+    margin-top:15px;
+}
+
+.header .tag{
+    position: absolute;
+    top:420px;
+    right:10px;
+    max-width:150px;
+}
+
+.header .far{
+    position: absolute;
+    top:130px;
+    right:600px;
+    max-width:100px;
+}
+.header .leaf{
+    position: absolute;
+    top:140px;
+    left:130px;
+    max-width:100px;
+}
+
+/* start choose section*/
+
+.choose{
+    margin-top:20px;
+    margin-bottom:100px;
+    padding-top:20px;
+    padding-bottom:20px;
+    position: relative
+}
+
+.choose .bar{
+    height:150px;
+    width:100%;
+    background-color: #ebefc1e6;
+    position:absolute;
+    z-index:0;
+    top:250px;
+    
+}
+
+
+.choose .row{
+    margin-left:0;
+    margin-right:0;
+}
+
+.choose .cont-dish h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.choose .cont-dish > p:first-of-type{
+    line-height:1.6;
+    font-size:16px;
+    color:#666;
+    font-weight: bold
+}
+
+.choose .cont-dish .dish-col {
+    margin-top:20px;
+    
+}
+
+.choose .cont-dish .dish-col img{
+    max-width:300px;
+    max-height:300px;
+   
+}
+
+.choose .cont-dish .dish-col h4{
+     text-transform: uppercase;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom:15px;
+    font-size:22px
+}
+
+.choose .cont-dish .dish-col p{
+    line-height:1.6;
+    font-size:16px;
+    color:#666;
+    
+    
+}
+
+.choose .cont-dish .dish-col button{
+    width:200px;
+    padding:10px;
+    margin-top:15px;
+    color:#333;
+    background-color:#ffe152;
+    border:none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.choose .cont-dish .dish-col button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:#333;
+    border:1px solid #333
+}
+
+
+
+
+/********         START DISCOVER           *******/
+
+.discover{
+  /*background-color: aqua;*/
+    padding-left:0;
+    padding-right:0;
+    overflow: hidden;
+    height:700px;
+    position: relative;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.discover p:first-of-type{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color:#555
+}
+.discover h2{
+     font-family: 'Fredericka the Great', cursive;
+    margin-top:0px;
+    margin-bottom:25px;
+    text-transform: uppercase;
+    font-size:32px
+}
+
+.discover .slider{
+    min-height: 600px;
+    
+    
+    padding-bottom:20px;
+    /*display:flex;*/
+    
+    
+}
+.discover  .container-fluid{
+    padding-left:0;
+    padding-right:0;
+    
+
+}
+
+
+.discover .slider .cl{
+    width:100%;
+ position: relative;
+    height:500px;
+    margin-top:30px;
+    margin-bottom:-60px;
+
+}
+
+
+.discover .slider .cl> img{
+    max-width:33.33%;
+    max-height:400px;
+ -webkit-transition:all .7s ease-in-out;
+ -moz-transition:all .7s ease-in-out;
+  -o-transition:all .7s ease-in-out;
+  transition:all .7s ease-in-out;
+    opacity: 1;
+    
+}
+
+
+.discover .slider .cl img{
+    float:left;
+   width:100%;
+   position: relative;
+    opacity: 0.7;
+    margin-bottom: 0;
+
+}
+
+
+
+
+
+
+.discover .slider .indicators ul{
+  display: inline-block;
+    list-style: none;
+    
+}
+
+.discover .indicators ul li{
+   float: left;
+    margin-left:5px;
+    width:15px;
+    height:15px;
+   border-radius:50% 50%;
+    
+    background-color: #d5d5d3;
+}
+
+#active-ol{
+    background-color: #ffe152;
+    
+}
+
+
+
+
+.active{
+ 
+  transform: translate3d(0px ,0px, 20px);
+    transform: scale(1.1);
+    z-index:1;
+    opacity:1.0;
+    transition:all .7s ease-in-out;
+    box-shadow: 0px -1px 5px 0px #32323236,
+        0px 5px 14px 1px #646464a6,
+        -5px 0px 7px black,
+        5px 0px 7px black
+        
+   
+}
+
+/********** START MENU **************/
+
+.menu{
+    margin-top:45px;
+    margin-bottom:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+   overflow: hidden;
+    max-height:500px;
+}
+.menu .menu-side{
+    max-height:500px;
+    width:550px;
+    overflow: hidden;
+     
+}
+.menu .menu-side img{
+   max-width:550px;
+    max-height:100%;
+    position: relative;
+    
+}
+
+.menu .menu-side .txt-cont{
+    position: absolute;
+    top:0px;
+    box-sizing: border-box;
+    width:550px;
+    height:100%;
+    padding:15px;
+    color:white;
+    background-color: rgba(1,1,1,0.3)
+}
+
+.menu .menu-side .txt-cont p{
+    font-size:22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom: 0;
+}
+.menu .menu-side .txt-cont h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    margin-left:20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:5px
+}
+
+.menu .menu-right{
+   display:flex;
+    width:550px;
+    flex-direction: column;
+    max-height:600px;
+    overflow: hidden;
+    /*$$$$$$*/
+}
+.menu .menu-right > div{
+    max-height: 250px;
+}
+
+.menu .menu-right .up{
+    margin-bottom:10px;
+    overflow: hidden;
+    
+}
+
+.menu .menu-right .up img{
+    max-width:550px;
+    max-height:100%;
+    position: relative;
+}
+.menu .menu-right .up .txt-cont{
+    position: absolute;
+    top:0px;
+    box-sizing: border-box;
+    width:550px;
+    height:250px;
+    padding:15px;
+    color:white;
+    background-color: rgba(1,1,1,0.3)
+    
+}
+.menu .menu-right .up .txt-cont p{
+    font-size:22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom: 0;
+}
+.menu .menu-right .up .txt-cont h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    margin-left:20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:5px
+}
+
+.menu .menu-right .down{
+    
+}
+
+.menu .menu-right .down img{
+     max-width:550px;
+    max-height:100%;
+    position: relative;
+}
+.menu .menu-right .down .txt-cont{
+    position: absolute;
+    top:260px;
+    box-sizing: border-box;
+    width:550px;
+    height:100%;
+    padding:15px;
+    color:white;
+    background-color: rgba(1,1,1,0.3)
+    
+}
+.menu .menu-right .down .txt-cont p{
+    font-size:22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom: 0;
+}
+
+.menu .menu-right .down .txt-cont h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    margin-left:20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:5px
+}
+
+/*  START BOOK &&&&*/
+.book{
+    margin-top:20px;
+    padding:20px;
+}
+.book p{
+    font-size:22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:20px;
+    
+    margin-bottom: 0;
+}
+
+.book h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    
+   
+     font-family: 'Fredericka the Great', cursive;
+    margin-top:5px;
+    margin-bottom: 40px
+}
+
+.book .ap{
+    margin-left:250px;
+    
+}
+.book input{
+    display: block;
+    margin-bottom:15px;
+    padding:10px;
+    width:300px;
+    border:1px solid #77777740;
+    border-radius: 3px 3px;
+}
+
+.book button{
+    width:300px;
+    padding:10px;
+    display: block;
+    background-color: #ffe152;
+    color:#333;
+    border:1px solid #ffe152;
+    border-radius: 3px 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.6;
+     font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*foooooter*/
+footer{
+    height: 500px;
+    background: url(../images/back2.jpg) left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+footer .ful{
+    color:white;
+    padding:20px;
+    height: 100%;
+    background-color: rgba(1,1,1,0.9);
+    position: relative;
+    
+}
+footer .ful .logo-contain{
+    position: relative;
+    padding:10px;
+    left:20px;
+    top:30px;
+    width:300px;
+    height: 60px;
+    
+    
+}
+
+footer .ful .logo-contain  img{
+    max-height: 100%;
+    position: absolute;top:20px;
+    
+}
+footer .ful .logo-contain p{
+    font-size:46px;
+    font-weight: bold;
+    margin-left:65px;
+    text-transform: uppercase;
+    color:#ffe152;
+    line-height:50px;
+    
+}
+
+footer .ful .abstract{
+    margin-top:80px;
+    height: 300px;
+}  
+
+footer .ful .abstract p{
+    font-size:16px;
+}
+
+footer .ful .abstract span{
+    position:absolute;
+    bottom:0px;
+}
+
+footer .ful .place{
+    margin-left:150px;
+    margin-top:80px;
+    
+   
+    position:relative
+    
+}
+
+
+
+footer .ful .place p {
+    margin-left:20px;
+    line-height: 30px;
+    
+}
+footer .ful .place p:first-of-type{
+    margin-bottom:20px;
+}
+
+footer .ful .place p i{
+    color:#ffe152;
+    font-size: 30px;
+    line-height: 30px;
+     vertical-align: middle;
+    margin-right: 20px
+}
+
+footer .ful .place .txt{
+    font-size:16px;
+    vertical-align: middle;
+}
+footer .ful .social{
+    position: absolute;
+    top:350px;
+    right:20px;
+    padding:10px;
+}
+
+footer .ful li{
+    float:left;
+    margin-right:20px;
+    
+}
+footer .ful li:hover{
+    cursor: pointer;
+    color:#ffe152;
+}
+
+
+
+
+
+
+
+
+
